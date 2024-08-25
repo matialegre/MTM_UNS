@@ -32,7 +32,23 @@ Copiar código
 idf.py menuconfig
 Configura el SSID, contraseña, y otros parámetros de la red Wi-Fi que generará el ESP32.
 
+Compilar:
 
-Configura el ESP32 como un Punto de Acceso:
+Ejecuta el siguiente comando para compilar el proyecto:
+bash
+Copiar código
+idf.py build
 
-Modifica el archivo principal del proyecto (main.c) para configurar el ESP32 como un punto de acceso. También configuraremos un servidor HTTP básico que responderá a las solicitudes de la aplicación Python
+Flashear:
+
+Flashea el firmware al ESP32:
+bash
+Copiar código
+idf.py -p /dev/ttyUSB0 flash
+
+Monitoreo:
+
+Utiliza el comando para monitorear la salida serial:
+bash
+Copiar código
+idf.py monitor
