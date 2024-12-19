@@ -3,7 +3,7 @@
 
 // Configuración de red Wi-Fi
 const char *ssid = "Controlador_ESP32";
-const char *password = "12345678";
+const char *password = "123456789";
 
 // Pines GPIO
 #define PIN_D4 4  
