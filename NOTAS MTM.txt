@@ -1,0 +1,11 @@
+-mu a cohef. de deslizamiento
+
+1000RPM MAX disco.
+4000RPM MAX bola.
+
+R = 2 cm
+r = 0.45 cm
+
+
+4000 rpm * 4,5 mm = 1,88m/s
+para 1,88 m/s bolita 897 RPM disco
